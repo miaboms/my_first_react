@@ -4,9 +4,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-</head>
-<body>
-    
+    <!-- adding React and React DOM via script tag -->
     <script
       src="https://cdnjs.cloudflare.com/ajax/libs/react/16.8.3/umd/react.development.js"
       crossorigin
@@ -15,5 +13,15 @@
       src="https://cdnjs.cloudflare.com/ajax/libs/react-dom/16.8.3/umd/react-dom.production.min.js"
       crossorigin
     ></script>
+    <!-- Adding JSX, a javascript Syntax -->
+    <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+</head>
+<body>
+    <h1>Hello, React!</h1>
+    <!-- We make a div with an Id so we can identify it and use it on our index.js file, it will contain the entire webpage -->
+    <div id="raiz"></div>
+    <!-- sourcing our index.js file and labeling the type as a babel file so we can use jsx -->
+    <!-- <script src="index.js" type="text/babel"></script> -->
+    <script src="index2.js"></script>
 </body>
 </html>
